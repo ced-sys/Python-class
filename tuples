@@ -1,0 +1,20 @@
+#tuple strings
+tuple1=('geology', 'geophysics', 'geochem')
+print(tuple1) #output: ('geology', 'geophysics', 'geochem')
+
+#tuple integers
+tuple2=(1,2,3,4,5,6,7,8,9)
+print(tuple2) #output (1,2,3,4,5,6,7,8,9)
+
+#nested tuples
+tuple3=("Miller", "Mac", "Kendrick")
+tuple4=(1,2,3)
+tuple5=(tuple3, tuple4)
+print(tuple5) #output(("Miller", "Mac", "Kendrick"),(1,2,3))
+
+#accessing tuples
+tuple6=tuple([1,2,3,4,5])
+print("first element of tuple")
+print(tuple6[0]) #output:1
+print("Last element of tuple")
+print(tuple6[-1]) #output: 5
