@@ -1,0 +1,47 @@
+set1=set()
+print("Initial blank set:")
+print(set1) 
+
+#Output: Initial blank set:
+					set()
+
+set2=set("AI for Geeks")
+print("Set with the use of string:")
+print(set2) 
+#Output:Set with the use of string:
+				{'', 'k', 'e', 'I', 'G', 'r', 'f', 'o', 'A', 's'}
+
+
+set3=set(["AI for Geeks:"])
+print("Set with the use of list:")
+print(set3) 
+#Output: Set with the use of list:
+				  {'AI for Geeks:'}
+
+set4=set([1,2, 'geeks', 4, 'for', 6, 'AI'])
+print("Set with the use of Mixed values")
+print(set4) 
+
+#Output: Set with the use of Mixed values
+				  {1,2,4,'geeks',6,'for', 'AI'}
+
+
+
+#access set items
+set1=set(["Monday", " Tuesday", " Wednesday"])
+print("Initial set:")
+print(set1)
+#output:Initial set:
+        ('Monday, 'Tuesday', 'Wednesday')
+
+
+print("Elements of set:")
+for i in set1:
+		print(i, end=" ")   
+
+#output:Elements of set:
+        Monday Tuesday Wednesday
+
+
+
+		
