@@ -1,0 +1,22 @@
+print('string 1')
+#output: string 1
+print("string 2")
+#output:string2
+print('''string 3''')
+#Output:string3
+print('''multiple
+			line
+			string''')
+#Output:multiple
+        line
+        string
+			
+			
+#accessing elements of a string
+string1="AI for the future"
+print("First character of the the string is:")
+print(string1[0]) 
+#output: A
+print("Last character of the string is":)
+print(string1[-1]) 
+#output: e
