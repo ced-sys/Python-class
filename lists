@@ -1,0 +1,31 @@
+list=[]
+list=['geophysics', 'geology', 'geochem']
+print(list[0]) 
+#output: geophysics
+list[0]=astronomy
+
+#replaces the first item on the list
+
+list.append('geodesy') 
+
+#output:['geophysics','geology', 'geochem','geodesy']
+
+multi_dimensional_list=[["earthquakes", "Magnetics", "self-potential"],["Electrical resistivity", "Electromagnetics", "Seismics"]]
+print(multi_dimensional_list) 
+
+#output: [["earthquakes", "Magnetics", "self-potential"],["Electrical resistivity", "Electromagnetics", "Seismics"]]
+
+
+#accessing elements in a multidimensional list
+print(multi_dimensional_list[0][0]) 
+
+#output: "earthquakes"
+
+
+#extend
+numbers=[1,2,3]
+more_numbers=[4,5,6]
+numbers.extend(more_numbers)
+print(numbers) 
+
+#output:[1,2,3,4,5,6]
