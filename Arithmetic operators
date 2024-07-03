@@ -1,0 +1,29 @@
+#addition
+num1=10
+num2=5
+sum=num1+num2
+print("Sum:", sum)#output= Sum: 15
+
+#subtraction
+difference=num1-num2
+print("Difference:", difference)#output= Difference: 5
+
+#multiplication
+product=num1*num2
+print("Product:", product)#output= Product: 50
+
+#Division
+division=num1/num2
+print("Division:", division) #output= Division:2.0
+
+#floor division
+floor_division=num1//num2
+print("Floor Division:", floor_division)#output= Floor Division: 2
+
+#modulus
+remainder=num1%num2
+print("Remainder:", remainder) #output= Remainder:0
+
+#exponentiation
+power=num1**num2
+print("Power:", power) #output=Power: 100,000
