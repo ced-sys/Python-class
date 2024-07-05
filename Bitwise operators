@@ -1,0 +1,8 @@
+a=10
+b=4
+print(a&b)#output=0
+print(a|b)#output=14
+print(~a)#output=-11
+print(a^b)#output=14
+print(a>>2)#output=2
+print(a<<2)#output=40
