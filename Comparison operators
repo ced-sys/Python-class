@@ -1,0 +1,10 @@
+a=13
+b=33
+print(a>b)#output=False
+print(a<b)#output=True
+print(a==b)#output=False
+print(a!=b)#output=True
+print(a>=b)#output=False
+print(a<=b)#output=True
+
+
